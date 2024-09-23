@@ -1,0 +1,24 @@
+# Chatbot random punya danil
+
+def Wonyoung():
+    print("Halo! Aku wonyoung. Ketik 'bye' untuk mengakhiri percakapan kita.")
+    
+    while True:
+        pesan_pengguna = input("daniel: ").lower()
+        
+        if pesan_pengguna == 'keluar':
+            print("Wonyoung: dadah daniell!")
+            break
+        elif 'halo' in pesan_pengguna or 'hai' in pesan_pengguna or 'anyeong' in pesan_pengguna:
+            print("Wonyoung: Hai! Ada apa danil??")
+        elif 'apa kabar' in pesan_pengguna:
+            print("Wonyoung: aku baik! kamu gimana danniel?")
+        elif 'aku kangen izone' in pesan_pengguna:
+            print("Wonyoung: sama aku juga huhuuu.")
+        elif 'terima kasih selalu ada' in pesan_pengguna:
+            print("Wonyoung: terimakasih juga udah selalu dukung.")
+        else:
+            print("Wonyoung: Maaf, saya tidak mengerti.")
+            
+# Jalankan chatbot
+Wonyoung()
